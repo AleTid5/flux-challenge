@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
 import starsImg from "../../assets/images/stars.png";
-import { useAppContext } from "../../contexts/AppContext";
+import { useAppContext } from "../../contexts/app.context";
 
 const useStyles = (isBackgroundInverted: boolean) =>
   makeStyles(() =>

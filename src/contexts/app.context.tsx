@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react";
 import {
   AppContextInterface,
   AppProviderInterface,
-} from "../interfaces/app-provider.interface";
+} from "../interfaces/app-context.interface";
 
 const AppContext = createContext({
   isBackgroundInverted: false,
