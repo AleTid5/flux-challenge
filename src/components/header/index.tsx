@@ -20,6 +20,7 @@ import AccountCircle from "@material-ui/icons/AccountCircle";
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { useAppContext } from "../../contexts/app.context";
+import { useSearchContext } from "../../contexts/search.context";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -92,10 +93,12 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function Header() {
   const { invertBackground } = useAppContext();
-  const classes = useStyles();
+  const { setQueryParam } = useSearchContext();
+  const [search, setSearch] = useState<string>("");
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] =
     useState<null | HTMLElement>(null);
+  const classes = useStyles();
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -199,6 +202,12 @@ export default function Header() {
                 input: classes.inputInput,
               }}
               inputProps={{ "aria-label": "search" }}
+              onChange={({ target: { value } }) => setSearch(value)}
+              onKeyPress={(e) => {
+                if (e.key === "Enter") {
+                  setQueryParam(search);
+                }
+              }}
             />
           </div>
           <div className={classes.grow} />
