@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/flux-challenge/static/js/main.ba7caa98.chunk.js",
+    "main.js.map": "/flux-challenge/static/js/main.ba7caa98.chunk.js.map",
+    "runtime-main.js": "/flux-challenge/static/js/runtime-main.f7e8a46d.js",
+    "runtime-main.js.map": "/flux-challenge/static/js/runtime-main.f7e8a46d.js.map",
+    "static/js/2.c37437bc.chunk.js": "/flux-challenge/static/js/2.c37437bc.chunk.js",
+    "static/js/2.c37437bc.chunk.js.map": "/flux-challenge/static/js/2.c37437bc.chunk.js.map",
+    "index.html": "/flux-challenge/index.html",
+    "static/js/2.c37437bc.chunk.js.LICENSE.txt": "/flux-challenge/static/js/2.c37437bc.chunk.js.LICENSE.txt",
+    "static/media/stars.a220ddcd.png": "/flux-challenge/static/media/stars.a220ddcd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7e8a46d.js",
+    "static/js/2.c37437bc.chunk.js",
+    "static/js/main.ba7caa98.chunk.js"
+  ]
+}
