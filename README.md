@@ -23,6 +23,8 @@ $ npm i
 $ npm start
 ```
 
+> ###### Note: Live Demo is running on https://aletid5.github.io/flux-challenge/
+
 # 🔥 Features!
 - Search input
 - Results table with sortable columns: `Name` `Owner` `Stars` `Created at`
