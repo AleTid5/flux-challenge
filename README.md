@@ -12,11 +12,12 @@ with pagination and table sorter.
 
 ## 🖥 Install and run
 
-Requires [GIT](https://git-scm.com/) and [Node.js](https://nodejs.org/) to run and install the dependencies.
+Requires [Node.js](https://nodejs.org/) to run and install the dependencies.
 
 Installing the dependencies and starting the server:
 
 ```sh
+# You can even download and unzip the ZIP file
 $ git clone https://github.com/AleTid5/flux-challenge.git
 $ cd flux-challenge
 $ npm i
