@@ -13,7 +13,7 @@ const useStyles = makeStyles(() =>
     card: {
       minHeight: "50vh",
       width: "100%",
-      backgroundColor: "#2a2c2ef2",
+      backgroundColor: "#2a2c2ee0",
       boxShadow: "10px 10px 25px black",
     },
   })
